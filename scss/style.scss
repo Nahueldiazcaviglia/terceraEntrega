@@ -1,0 +1,51 @@
+@import "./variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+.navbar{
+    background-color:#c69d55 ;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .nav-link:hover{
+    background: #344d4c;
+  }
+  .dropdown-item:hover{
+    background-color: #c69d55;
+    background: #344d4c;}
+  .dropdown-menu{
+    background-color: #c69d55;
+  }
+  #cuerpo{
+    background-image: url("../assets/imagenes/Fondos\ historias-01.jpg");
+    height: 90vh;
+  }
+  rh2{
+    color: #344d4c;
+    font-weight: bolder;
+    font-family: 'Libre Caslon Text', serif;
+  }   
+  h5{
+    color: #344d4c;
+    font-weight: bolder;
+    font-family: 'Libre Caslon Text', serif;
+  }  
+  p{ 
+    color: #344d4c;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+  }
+  #pieDePagina{
+    background-color:  #c69d55;
+    height: 150px;
+    font-family:'Open Sans', sans-serif;
+    border-top: #344d4c 4px solid ;
+  }
+
+  #formulario{
+    background-color:  #c69d55;
+    border-color: #344d4c;
+  }
+  .card-body{
+    background-color:  #c69d55;
+  }
